@@ -1,4 +1,204 @@
 const portfolioData = {
+  portfolio: {
+    stacks: [
+      {
+        id: 'frontend',
+        name: 'Frontend',
+        languages: [
+          {
+            id: 'javascript',
+            name: 'Javascript',
+            imageSrc: 'images/projects/ability-design.png',
+            imageAlt: 'Featured CSS image',
+            items: [
+              {
+                name: 'ReactJs',
+                href: '#',
+                color: '',
+                items: [
+                  {
+                    name: 'NextJs',
+                    href: '#',
+                    color: ''
+                  },
+                  {
+                    name: 'Material UI',
+                    href: '#',
+                    color: ''
+                  }    
+                ]
+              },
+              {
+                name: 'VueJs',
+                href: '#',
+                color: '',
+                items: [
+                  {
+                    name: 'NuxtJs',
+                    href: '#',
+                    color: ''
+                  },
+                  {
+                    name: 'BootstrapVue',
+                    href: '#',
+                    color: ''
+                  }    
+                ]
+              },
+            ]
+          },
+          {
+            id: 'css',
+            name: 'CSS',
+            imageSrc: 'images/projects/housezzy.png',
+            imageAlt: 'Featured CSS image',
+            items: [
+              {
+                name: 'TailwindCss',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'BootstrapCss',
+                href: '#',
+                color: ''
+              }
+            ]
+          }    
+        ]
+      },
+      {
+        id: 'backend',
+        name: 'Backend',
+        languages: [
+          {
+            id: 'javascript',
+            name: 'Javascript',
+            items: [
+              {
+                name: 'NodeJs',
+                href: '#',
+                color: '',
+                items: [
+                  {
+                    name: 'ExpressJs',
+                    href: '#',
+                    color: ''
+                  },
+                  {
+                    name: 'Mongoose ORM',
+                    href: '#',
+                    color: ''
+                  },
+                  {
+                    name: 'Sequelize ORM',
+                    href: '#',
+                    color: ''
+                  }    
+                ]
+              }
+            ]
+          },
+          {
+            id: 'php',
+            name: 'PHP',
+            items: [
+              {
+                name: 'OOP',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Laravel',
+                href: '#',
+                color: ''
+              }
+            ]
+          },
+          {
+            id: 'python',
+            name: 'Python',
+            items: [
+              {
+                name: 'Flask',
+                href: '#',
+                color: '',
+                items: [
+                  {
+                    name: 'SQLAlchemy',
+                    href: '#',
+                    color: ''
+                  },
+                  {
+                    name: 'Psycopg2',
+                    href: '#',
+                    color: ''
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            id: 'database',
+            name: 'Database',
+            items: [
+              {
+                name: 'MongoDB',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'MySQL',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'PostgresSQL',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Redis',
+                href: '#',
+                color: ''
+              },
+            ]
+          },
+          {
+            id: 'deployment',
+            name: 'Deployment',
+            items: [
+              {
+                name: 'RESTful API',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Docker',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Kubernetes',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Git',
+                href: '#',
+                color: ''
+              },
+              {
+                name: 'Testing',
+                href: '#',
+                color: ''
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   projects: [
     {
       id: 'most-recent-projects',

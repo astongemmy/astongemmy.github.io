@@ -1,4 +1,4 @@
-export default function TagLine() {
+const TagLine = () => {
 	return (
 		<div>
 			<div data-aos="zoom-in-left" className="flex flex-wrap justify-between md:justify-start px-4 md:px-0">
@@ -24,3 +24,5 @@ export default function TagLine() {
 		</div>
 	)
 }
+
+export default TagLine;

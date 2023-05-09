@@ -1,4 +1,4 @@
-export default function StackCloud() {
+const StackCloud = () => {
 	return (
 		<div data-aos="fade-up" className="flex flex-wrap md:justify-start justify-center gap-3 mb-4">
 			<div className="cursor-pointer rounded-full bg-blue-400 pr-6 my-1 md:my-2">
@@ -76,3 +76,5 @@ export default function StackCloud() {
 		</div>
 	)
 }
+
+export default StackCloud;
